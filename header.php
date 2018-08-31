@@ -9,6 +9,7 @@
 
 <body <?php body_class(); ?>>
     <div id="wrapper" class="hfeed">
+        <div class="backdrop"></div>
         <header id="header" role="banner">
             <section id="branding">
                 <div id="site-title">

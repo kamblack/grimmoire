@@ -7,6 +7,10 @@
         </footer>
     </div>
 
+    <script>
+    jQuery('body').addClass(jQuery('#content > article').attr('class'));
+    jQuery('#content > article').removeAttr('class');
+    </script>
     <?php wp_footer(); ?>
 </body>
 </html>
