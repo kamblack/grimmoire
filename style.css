@@ -86,7 +86,7 @@ body > .backdrop {
     max-width: 75ch;
     text-align: center;
 }
-h1 {
+#site-title {
     font-family: 'Kadwa', Georgia, serif;
     font-size: 3em;
     font-weight: 700;
@@ -94,18 +94,21 @@ h1 {
     justify-content: center;
 }
 @media only screen and (min-width: 750px) {
-    h1 {
+    #site-title {
         font-size: 6em;
     }
 }
-h1 a {
+#site-title a {
     font-family: 'Kadwa', Georgia, serif;
     opacity: 0.6;
     text-decoration: none;
     transition: opacity 300ms;
 }
-h1 a:hover {
+#site-title a:hover {
     opacity: 0.3;
+}
+.home #site-title {
+    margin-top: -5px;
 }
 #site-description {
     opacity: 0.6;
@@ -139,11 +142,11 @@ article footer {
     background: rgba(192,192,192,0.2);
     padding: 10px;
 }
-h2 {
+.entry-title {
     font-size: 2em;
     font-family: 'Kadwa', Georgia, serif;
 }
-h2 a {
+.entry-title a {
     text-decoration: none;
     font-family: 'Kadwa', Georgia, serif;
 }
@@ -154,6 +157,9 @@ h2 a {
     padding: 10px;
     border: 1px solid transparent;
     border-color: transparent rgba(192,192,192,0.2);
+}
+.entry-content p {
+    margin: 15px 0 10px;
 }
 .entry-footer > span {
     display: block;
